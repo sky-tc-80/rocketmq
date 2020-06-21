@@ -10,6 +10,9 @@ import org.apache.rocketmq.remoting.exception.RemotingException;
 
 import java.io.UnsupportedEncodingException;
 
+/**
+ * 消息过滤
+ */
 public class BySqlProducer {
 
     public static void main(String[] args) throws MQClientException, UnsupportedEncodingException,
