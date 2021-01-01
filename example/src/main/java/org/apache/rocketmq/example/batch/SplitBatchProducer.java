@@ -45,7 +45,6 @@ public class SplitBatchProducer {
             producer.send(listItem);
         }
     }
-
 }
 
 class ListSplitter implements Iterator<List<Message>> {
